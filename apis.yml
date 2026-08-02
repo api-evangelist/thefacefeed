@@ -1,4 +1,16 @@
 aid: thefacefeed
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thefacefeed.png
 name: thefacefeed
 description: thefacefeed is a company surfaced as a portfolio company of slow-ventures and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -23,3 +35,13 @@ maintainers:
 common:
 - type: Website
   url: https://thefacefeed.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    thefacefeed.com (plus www/docs/api/.well-known subdomains) 302-redirects to
+    hugedomains.com — the domain is parked and listed for sale. No live web
+    presence, developer portal, docs, or API surface exists. No artifacts could
+    be searched, generated, or derived without fabrication.
