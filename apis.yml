@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://thefacefeed.com', status: 302, note: 'declared website redirects to hugedomains.com — a domain sales/parking service, so the domain has lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thefacefeed.png
 name: thefacefeed
 description: thefacefeed is a company surfaced as a portfolio company of slow-ventures and added to the
