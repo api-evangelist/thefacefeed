@@ -1,4 +1,5 @@
 aid: thefacefeed
+x-status: defunct
 deliveryModel:
   model: unknown
   open_source: false
